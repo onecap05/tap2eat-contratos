@@ -1,5 +1,8 @@
 syntax = "proto3";
 
+option java_package = "com.tap2eat.api.grpc"; // Asegúrate que este paquete coincida con tu estructura
+option java_multiple_files = true;
+
 package tap2eat;
 
 // El servicio que el Cliente Rico (Electron) consumirá del Backend (Python/Java)
